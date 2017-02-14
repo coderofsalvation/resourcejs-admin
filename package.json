@@ -1,7 +1,7 @@
 {
   "name": "resourcejs-admin",
-  "version": "1.0.2",
-  "description": "description here",
+  "version": "1.0.4",
+  "description": "minimalistic Express.js lib which turns 1 json-model into: mongoose models, REST endpoints, documentation & admin interface",
   "main": "index.js",
   "directories": {
     "test": "set -ex; for test in test/tests/*; do $test; done"

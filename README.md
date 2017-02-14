@@ -21,9 +21,9 @@ then setup your express app like so:
     app = express()
 
     // Setup database / rest endpoints / documentation / admin
-    require('resourcejs-admin')(express, app, config, function(schema, name, config){
-      // you can decorate the mongoose schema's further here
-      // see : http://mongoosejs.com/docs/2.7.x/docs/schematypes.html
+    require('resourcejs-admin')(express, app, config, 
+      function(schema, name, config){  }   // you can decorate the mongoose schema's further here (http://mongoosejs.com/docs/2.7.x/docs/schematypes.html)
+      function(swagger){ }                 // you can decorate the swagger-spec here to extend the docs served at /doc
     })
 
     app.listen(port)

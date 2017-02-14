@@ -1,0 +1,38 @@
+{
+  "name": "resourcejs-admin",
+  "version": "1.0.0",
+  "description": "description here",
+  "main": "index.js",
+  "directories": {
+    "test": "set -ex; for test in test/tests/*; do $test; done"
+  },
+  "scripts": {
+    "test": "set -ex; for test in test/tests/*; do $test; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderofsalvation/resourcejs-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/resourcejs-admin/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/resourcejs-admin#readme",
+  "devDependencies": {
+    "superagent":"", 
+    "mongodb-filebased":"", 
+    "express":"4.1.0" 
+  }, 
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.14.2",
+    "generate-schema": "^2.3.3",
+    "mongooseadmin": "^1.0.5",
+    "resourcejs": "^1.6.1",
+    "swagger-ui": "^2.2.8"
+  }
+}

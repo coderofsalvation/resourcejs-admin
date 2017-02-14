@@ -1,0 +1,26 @@
+{
+  "title":"", 
+  "logo":"/img/logo.png", 
+  "users":{
+    "admin": {"password":"password"}
+  }, 
+  "database":{
+    "user":{
+      "data":{
+        "id": 1234, 
+        "username":"johndoe", 
+        "email":"john@doe.com", 
+        "displayName":"John Doe", 
+        "data":{}
+      }, 
+      "rest":["get", "post", "put", "delete", "index"]
+    }, 
+    "game":{
+      "data":{
+        "repository":"http://github.com/foo/bar", 
+        "issues":[1234, 143453, 1345]
+      }, 
+      "rest":["get", "post", "put", "delete", "index"]
+    }
+  }
+}

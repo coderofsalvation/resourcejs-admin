@@ -33,6 +33,6 @@
     "generate-schema": "^2.3.3",
     "mongooseadmin": "^1.0.5",
     "resourcejs": "^1.6.1",
-    "swagger-ui": "^2.2.8"
+    "swagger-ui": "^3.25.5"
   }
 }
